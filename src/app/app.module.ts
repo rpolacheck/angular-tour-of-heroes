@@ -22,9 +22,6 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     FormsModule,
     AppRoutingModule
   ],
-  providers: [
-    // no need to place any providers due to the 'providedIn' flag...
-  ],
-  bootstrap: [AppComponent]
+  bootstrap: [ AppComponent ]
 })
 export class AppModule { }
